@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(61, 254, 80);
+}
+
+.box{
+    color: rgb(245, 245, 245);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding:25px 26px;
+    text-align: center;
+}
+
+.box_main{
+    border-radius: 20px;
+    background-color: blue;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.traffic{
+    width: 451px;
+    border-radius: 20px;
+    background: rgb(4, 4, 4);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 69px 0;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background: rgb(223, 54, 54);
+    border: 5px solid rgb(40, 225, 69);
+}
+
+.yellow{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background: rgb(253, 228, 3);
+    border: 5px solid rgb(40, 225, 69);
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background: rgb(3, 253, 45);
+    border: 5px solid rgb(40, 225, 69);
+}
